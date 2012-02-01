@@ -13,7 +13,7 @@ public class MinesweeperActivity extends Activity {
         super.onCreate(savedInstanceState);
         TextView  tv = new TextView(this);
         
-        tv.setText( "Hi There, you");
+        tv.setText( "Hi There, you.");
         setContentView(tv);
     }
 }
