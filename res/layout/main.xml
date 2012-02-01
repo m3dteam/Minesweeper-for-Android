@@ -2,11 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:background="#ff009999"
+    >
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/hello" />
+
+<ImageButton
+    android:id="@+id/imageButton1"
+    android:layout_width="46dp"
+    android:layout_height="46dp"
+    android:background="@null"
+    android:onClick="buttonClicked"
+    android:src="@drawable/brick" />
 
 </LinearLayout>
